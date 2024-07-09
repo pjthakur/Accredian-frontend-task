@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Container, Typography, Button, Grid, Box } from '@mui/material';
 import { motion } from 'framer-motion';
 import ReferFormModal from './ReferFormModal';
-import image from '../assets/hero.png'
+import image from '/hero.png'
 
 const HeroSection = () => {
   const [state, setState] = useState({
@@ -54,7 +54,7 @@ const HeroSection = () => {
                 color: '#666'
               }}
             >
-              Spread the word about our amazing courses and earn valuable rewards.
+              Spread the word about our company and earn valuable rewards.
             </Typography>
           </motion.div>
         </Grid>

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import ReferEarn from './components/ReferEarn'
+
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import HeroSection from './components/HeroSection';
